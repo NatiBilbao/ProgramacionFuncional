@@ -10,6 +10,14 @@ sumaCuadrados(x, x+1)
 
 def cp(x: Int, y: =>Int) = x * x //La flecha indica que Y es un pasaje por nombre
 
-def loop : Int = loop
+//def loop : Int = loop //Funcion sin parametros
+
+val loop: Int = loop
 
 cp(3, loop)
+
+// val y = 2 + 2
+
+def y = 2 + 2 //funcion sin parametros
+
+y+y
