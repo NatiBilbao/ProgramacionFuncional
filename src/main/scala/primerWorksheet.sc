@@ -21,3 +21,7 @@ cp(3, loop)
 def y = 2 + 2 //funcion sin parametros
 
 y+y
+
+def abs(x: Int)= if(x > 0) x else -x
+
+abs(-3)
