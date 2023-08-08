@@ -18,10 +18,14 @@ cp(3, loop)
 
 // val y = 2 + 2
 
-def y = 2 + 2 //funcion sin parametros
+def y = 2 + 2 //funcion sin parámetros
 
 y+y
 
 def abs(x: Int)= if(x > 0) x else -x
 
 abs(-3)
+
+def gcd(a:Int, b:Int) : Int = if(b == 0) a else gcd(b, a%b)
+
+gcd(119,84)
