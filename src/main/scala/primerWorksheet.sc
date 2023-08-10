@@ -1,3 +1,5 @@
+import scala.annotation.tailrec
+
 val x = 5 //Declaramos la variable
 x + 1 //Expresion, x es inmutable
 
@@ -29,3 +31,10 @@ abs(-3)
 def gcd(a:Int, b:Int) : Int = if(b == 0) a else gcd(b, a%b)
 
 gcd(119,84)
+
+ @tailrec
+ def factTR(n: Int, acc : Int): Int = if(n == 0) acc else factTR(n-1, n*acc)
+
+def factTRmain(n: Int): Int = factTR(n, acc = 1)
+
+factTRmain(4)

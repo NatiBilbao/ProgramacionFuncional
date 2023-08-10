@@ -27,3 +27,8 @@ def factorial(n: Int): Int = {
 def factorial(n: Int): Int = if(n==0) 1 else factorial(n-1)
 
 //Modelo de sustitución de gcd(14,21) y de fact(4) fact --> abreviatura de factorial
+
+// Ejercicio 3
+//Hacer dos versiones de fibonacci tailrec y otro normal, fibo(0) = 1, fibo(1) = 1
+// def fibo(n:Int):Int = ???
+
