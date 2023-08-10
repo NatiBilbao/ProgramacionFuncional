@@ -1,3 +1,4 @@
+import scala.annotation.tailrec
 //Ejercicio 1
 
 // def and(b1: Boolean, b2: Boolean) = ??? //sin &&
@@ -31,4 +32,13 @@ def factorial(n: Int): Int = if(n==0) 1 else factorial(n-1)
 // Ejercicio 3
 //Hacer dos versiones de fibonacci tailrec y otro normal, fibo(0) = 1, fibo(1) = 1
 // def fibo(n:Int):Int = ???
+
+//Solucion
+//No tailrec
+def fibo(n:Int): Int = if(n<=1) 1 else fibo(n-1) + fibo(n-2)
+
+//tailrec
+
+@tailrec
+
 
