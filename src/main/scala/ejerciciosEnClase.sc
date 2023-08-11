@@ -66,7 +66,7 @@ def factTRmain(n: Int): Int = {
 
 def factTR(n:Int):Int = {
   @tailrec
-  def inner(i:Int, acc:Int):Int = if(i==0) acc else inner(i-1, n*acc)
+  def inner(i:Int, acc:Int):Int = if(i==0) acc else inner(i-1, i*acc)
   inner(n, 1)
 }
 
