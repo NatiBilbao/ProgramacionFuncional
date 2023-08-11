@@ -39,6 +39,4 @@ def fibo(n:Int): Int = if(n<=1) 1 else fibo(n-1) + fibo(n-2)
 
 //tailrec
 
-@tailrec
-
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 8/8/23">
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 10/8/23">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/tareas.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ejerciciosEnClase.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ejerciciosEnClase.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/primerWorksheet.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerWorksheet.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691534197248</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Clase 10/8/23">
+      <created>1691707001935</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691707001935</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Clase 10/8/23">
+      <created>1691707307769</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691707307769</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +134,7 @@
     <MESSAGE value="Clase 3/8/23" />
     <MESSAGE value="Clase 4/8/23" />
     <MESSAGE value="Clase 8/8/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 8/8/23" />
+    <MESSAGE value="Clase 10/8/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 10/8/23" />
   </component>
 </project>
