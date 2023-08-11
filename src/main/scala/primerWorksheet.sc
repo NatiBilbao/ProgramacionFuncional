@@ -38,3 +38,37 @@ gcd(119,84)
 def factTRmain(n: Int): Int = factTR(n, acc = 1)
 
 factTRmain(4)
+
+//Raiz cuadrada de los numeros
+def abs(a:Double) : Double = if(a<0) -a else a
+
+def suficiente(n:Double, a:Double) = abs(n - a*a) < 0.0001 * n
+
+def mejorar(n:Double, a:Double) = (a+n/a)/2
+
+def sqrt(n:Double, a:Double) : Double = if(suficiente(n,0)) a else sqrt(n, mejorar(n,a))
+
+def sqrtMain(n:Double) = sqrt(n,1)
+
+sqrtMain(2)
+
+// Llaves en scala
+
+10*{
+ val a = 2
+ val b = 3
+ def inc(a:Int) : Int = a+1
+ inc(a+b)
+}
+
+def sqrt(n:Double):Double= {
+ def suficiente(a:Double) = abs(n - a*a) < 0.0001 * n
+ def mejorar(a:Double) = (a+n/a)/2
+ def inner(a:Double) : Double = if(suficiente(a)) a else inner(mejorar(a))
+ inner(1)
+}
+
+sqrt(1e50)
+
+
+
