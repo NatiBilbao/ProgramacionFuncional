@@ -1,3 +1,4 @@
+//Primer parcial
 import scala.annotation.tailrec
 //Ejercicio 1
 
@@ -71,6 +72,8 @@ def factTR(n:Int):Int = {
 }
 
 factTR(4)
+
+
 
 
 

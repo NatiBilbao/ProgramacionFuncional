@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Práctica termina">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/practica1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practica1.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/primerWorksheet.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerWorksheet.sc" afterDir="false" />
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Correción práctica 1">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ejerciciosEnClase.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ejerciciosEnClase.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691987693173</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Correción práctica 1">
+      <created>1692050953274</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692050953274</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +180,7 @@
     <MESSAGE value="Clase 11/8/2023" />
     <MESSAGE value="Parctica 1 - 11/8/2023" />
     <MESSAGE value="Práctica termina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Práctica termina" />
+    <MESSAGE value="Correción práctica 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correción práctica 1" />
   </component>
 </project>
