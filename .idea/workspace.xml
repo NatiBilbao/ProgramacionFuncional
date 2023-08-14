@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Parctica 1 - 11/8/2023">
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Práctica termina">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/practica1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practica1.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/primerWorksheet.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerWorksheet.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691793774251</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Práctica termina">
+      <created>1691987693173</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691987693173</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +174,7 @@
     <MESSAGE value="Tarea 1 - 11/8/23" />
     <MESSAGE value="Clase 11/8/2023" />
     <MESSAGE value="Parctica 1 - 11/8/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parctica 1 - 11/8/2023" />
+    <MESSAGE value="Práctica termina" />
+    <option name="LAST_COMMIT_MESSAGE" value="Práctica termina" />
   </component>
 </project>

@@ -70,5 +70,12 @@ def sqrt(n:Double):Double= {
 
 sqrt(1e50)
 
+def esPositivoYPar(n:Int) : Boolean = n >= 0 && n%2==0
+
+// if(c) e else true //Estas expresiones son equivalentes
+// !c || e
+
+//if(c) e else e1
+//(c && e) || (!c && e1)
 
 
