@@ -22,7 +22,36 @@ def balance(chars: List[Char]): Boolean = {
   isBalanced(chars, 0)
 }
 
-println(balance("(if (¿cero? x) max (/ 1 x))".toList))
-println(balance("Le dije (que no está (todavía) hecho). (Pero no me escuchó)".toList))
-println(balance(":-)".toList))
-println(balance("())(".toList))
+// Ejercicio 3
+
+def countChange(dinero: Int, monedas: List[Int]): Int = {
+  if (dinero == 0) 1
+  else if (dinero < 0 || monedas.isEmpty) 0
+  else countChange(dinero - monedas.head, monedas) + countChange(dinero, monedas.tail)
+}
+
+val denominaciones = List(1, 2) // Lista de denominaciones de monedas
+val cantidad = 4 // Cantidad para la que se busca el cambio
+
+val formasDeCambio = countChange(cantidad, denominaciones)
+
+// Ejercicio 2
+
+def balance(chars: List[Char]): Boolean = {
+  def balanceHelper(chars: List[Char], openCount: Int): Boolean = {
+    if (chars.isEmpty) openCount == 0
+    else if (chars.head == '(') balanceHelper(chars.tail, openCount + 1)
+    else if (chars.head == ')') {
+      if (openCount > 0) balanceHelper(chars.tail, openCount - 1)
+      else false
+    }
+    else balanceHelper(chars.tail, openCount)
+  }
+
+  balanceHelper(chars, 0)
+}
+
+val example1 = "(if (¿cero? x) max (/ 1 x))".toList
+val example2 = "Le dije (que no está (todavía) hecho). (Pero no me escuchó)".toList
+val example3 = ":-)".toList
+val example4 = "())(".toList
