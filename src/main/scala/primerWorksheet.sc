@@ -1,4 +1,5 @@
 //Primer parcial
+
 import scala.annotation.tailrec
 
 val x = 5 //Declaramos la variable
@@ -13,7 +14,7 @@ sumaCuadrados(x, x+1)
 
 def cp(x: Int, y: =>Int) = x * x //La flecha indica que Y es un pasaje por nombre
 
-//def loop : Int = loop //Funcion sin parametros
+//def loop : Int = loop //Función sin parametros
 
 val loop: Int = loop
 
@@ -21,7 +22,7 @@ cp(3, loop)
 
 // val y = 2 + 2
 
-def y = 2 + 2 //funcion sin parámetros
+def y = 2 + 2 //Función sin parámetros
 
 y+y
 
@@ -40,7 +41,7 @@ def factTRmain(n: Int): Int = factTR(n, acc = 1)
 
 factTRmain(4)
 
-//Raiz cuadrada de los numeros
+//Raíz cuadrada de los números
 def abs(a:Double) : Double = if(a<0) -a else a
 
 def suficiente(n:Double, a:Double) = abs(n - a*a) < 0.0001 * n

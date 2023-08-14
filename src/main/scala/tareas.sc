@@ -1,8 +1,8 @@
-//Primer parcial
-
 import scala.annotation.tailrec
 
-// Realizar un codigo para los numeros de fibonacci uno con tailrec y otro con tailrecmain
+//Primer parcial
+
+// Realizar un código para los números de fibonacci uno con tailrec y otro con tailrecmain
 // def fiboTR(n:Int, acc1: Int, acc2:Int):Int = ???
 // def fiboTRmain(n:Int ) : Int = ???
 
@@ -17,7 +17,7 @@ def fiboTRmain(n: Int): Int = {
   fiboTR(n, 0, 1)
 }
 
-//Correcion tarea
+//Correción tarea
 def fiboTR(n:Int, i:Int, actual:Int, anterior:Int):Int = if(i == n) actual else fiboTR(n, i+1, actual+anterior)
 
 def fiboTRmain(n: Int) : Int = fiboTR(n, 0, actual = 1, anterior = 0)

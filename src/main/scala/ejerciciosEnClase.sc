@@ -1,9 +1,10 @@
-//Primer parcial
 import scala.annotation.tailrec
+
+//Primer parcial
+
 //Ejercicio 1
 
 // def and(b1: Boolean, b2: Boolean) = ??? //sin &&
-
 // def or(b1: Boolean, b2: Boolean) = ??? //sin ||
 
 //Solución
@@ -67,11 +68,27 @@ def factTRmain(n: Int): Int = {
 
 def factTR(n:Int):Int = {
   @tailrec
-  def inner(i:Int, acc:Int):Int = if(i==0) acc else inner(i-1, i*acc)
+  def inner(i:Int, acc:Int):Int = if (i==0) acc else inner(i-1, i*acc)
   inner(n, 1)
 }
 
 factTR(4)
+
+//Hacer la suma de los enteros entre a y b
+ def sumInts(a: Int, b: Int): Int = {
+   def inner(i : Int, acc : Int) : Int = if (i > b) acc else (inner(i + 1, acc + i))
+
+   inner(a, 0)
+ }
+sumInts(3,3)
+sumInts(3,4)
+sumInts(3,5)
+sumInts(5,3)
+
+//Hacer una función cubo de x
+//def cubo(x : Int): Int = x*x*x
+//Hacer la función sumCubes suma de los cubos de a y b
+//def sumCubes(a: Int, b: Int) : Int = ???
 
 
 
