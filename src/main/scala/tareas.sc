@@ -21,3 +21,5 @@ def fiboTRmain(n: Int): Int = {
 def fiboTR(n:Int, i:Int, actual:Int, anterior:Int):Int = if(i == n) actual else fiboTR(n, i+1, actual+anterior)
 
 def fiboTRmain(n: Int) : Int = fiboTR(n, 0, actual = 1, anterior = 0)
+
+//Tarea sumFact83,5 definir con sumF y sumInt35 definir en funciion de sumF

@@ -80,4 +80,17 @@ def esPositivoYPar(n:Int) : Boolean = n >= 0 && n%2==0
 //if(c) e else e1
 //(c && e) || (!c && e1)
 
+def sum2(x:Int) = x+2
+def sum3(x:Int) = x+3
+def sum5(x:Int) = x+5
+
+def sum(x:Int, y:Int) = x*y
+
+sum(x,5)
+
+def sumF(a: Int, b: Int): Int = {
+ def inner(i : Int, acc : Int) : Int = if (i > b) acc else inner(i + 1, acc + f(i))
+ inner(a, 0)
+}
+
 

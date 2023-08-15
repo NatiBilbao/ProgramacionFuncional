@@ -85,10 +85,19 @@ sumInts(3,4)
 sumInts(3,5)
 sumInts(5,3)
 
-//Hacer una función cubo de x
-//def cubo(x : Int): Int = x*x*x
 //Hacer la función sumCubes suma de los cubos de a y b
 //def sumCubes(a: Int, b: Int) : Int = ???
+
+def cube(x : Int): Int = x*x*x
+def sumCubes(a: Int, b: Int): Int = {
+  def inner(i : Int, acc : Int) : Int = if (i > b) acc else inner(i + 1, acc + cube(i))
+  inner(a, 0)
+}
+
+def sumFacts(a: Int, b: Int): Int = {
+  def inner(i : Int, acc : Int) : Int = if (i > b) acc else inner(i + 1, acc + factTR(i))
+    inner(a, 0)
+}
 
 
 
