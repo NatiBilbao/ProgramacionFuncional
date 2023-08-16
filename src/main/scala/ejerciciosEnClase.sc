@@ -99,6 +99,12 @@ def sumFacts(a: Int, b: Int): Int = {
     inner(a, 0)
 }
 
+def sumF(a: Int, b: Int, f : Int => Int): Int = {
+  def inner(i : Int, acc : Int) : Int = if (i > b) acc else inner(i + 1, acc + f(i))
+  inner(a, 0)
+}
+
+
 
 
 
