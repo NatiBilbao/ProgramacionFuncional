@@ -104,7 +104,39 @@ def sumF(a: Int, b: Int, f : Int => Int): Int = {
   inner(a, 0)
 }
 
+//Ejercicio 4
 
+//1) Definir prodF
+//prodF(2,4,f) = f(2)*f(3)*f(4)
+
+def prodF(start: Int, end: Int, f: Int => Int): Int = if (start > end) 1 else f(start) * prodF(start + 1, end, f)
+
+def square(x: Int): Int = x * x
+val result = prodF(2, 4, square)  // Esto calculará 2*2*3*3*4*4 = 576
+println(result)
+
+//2) Utilizar prodF para redefinir fact
+
+def prodF(start: Int, end: Int, f: Int => Int): Int = if (start > end) 1 else f(start) * prodF(start + 1, end, f)
+
+def fact(n: Int): Int = {
+  def identity(x: Int): Int = x
+  prodF(1, n, identity)
+}
+
+val result = fact(5)  // Esto calculará 5! = 5*4*3*2*1 = 120
+println(result)
+
+
+//3) Hacer una gran función que factorice sumF y prodF
+
+//4) Hacer una función collatz que da el largo de la secuencia de collatz desde cierto número
+//collatz(1) = 1
+//collatz(4) = 3
+//collatz(5) = 5
+
+//5) Utilizar la función del inciso 3 para encontrar el número la secuencia de collatz más larga en un rango
+//longestCollatz(2,5) = 3
 
 
 

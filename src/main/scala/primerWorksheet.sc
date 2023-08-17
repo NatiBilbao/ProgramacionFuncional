@@ -93,6 +93,21 @@ def sumF(a: Int, b: Int, f : Int => Int): Int = {
  inner(a, 0)
 }
 
+def inc(x:Int) = x + 1
+def inc2(x:Int) => x+1
+def inc3 = (_:Int)+1
+
+
+// var funcion : (Int, Int) => Int
+//funcion = _+2*_
+//funcion(2,3)
+
+//funcion = (x,y) => if(x>0) x else x*y
+//funcion(-3,4 // Llama un método de f, f es un objeto
+
+//Sumamos los cuadrados
+
+
 
 
 
