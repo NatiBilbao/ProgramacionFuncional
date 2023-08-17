@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 17/8/2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/FirstOrderFunction.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/FirstOrderFunction.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/ejerciciosEnClase.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ejerciciosEnClase.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692308642836</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Clase 17/8/2023">
+      <created>1692310588701</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692310588701</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

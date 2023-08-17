@@ -164,8 +164,25 @@ megaF(5, 7, _/2, 1, _*_) // Es igual que prodF(5,7,_/2)
 //collatz(4) = 3
 //collatz(5) = 5
 
+//def collatz(n : Int) : Int = if(n == 1) 1 else if(n % 2 == 0) 1 + collatz(n/2) else 1 + collatz(3*n+1) // no es tailrec
+
+def collatz(n : Int) : Int = {
+  @tailrec
+  def inner(i: Int, acc: Int): Int =
+    if (i == 1) acc + 1 else if (i % 2 == 0) inner(i / 2, acc + 1) else
+      inner(3*i+1, acc+1)
+  inner(n, 0)
+}
+
 //5) Utilizar la función del inciso 3 para encontrar el número la secuencia de collatz más larga en un rango
 //longestCollatz(2,5) = 3
+
+//def longestCollatz(a:Int, b:Int) = {
+  //def max(x : Int, y : Int) = if(x > y) x else y
+  //megaF(a,b ,collatz, 0, max)
+//}
+
+def longestCollatz(a: Int, b: Int) = megaF(a, b, collatz, 0, _ max _)
 
 
 
