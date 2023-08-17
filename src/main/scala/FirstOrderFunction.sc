@@ -1,7 +1,8 @@
 import scala.annotation.tailrec
 //Primer parcial
-@tailrec
+
 def sumF(a: Int, b: Int, f : Int => Int): Int = {
+  @tailrec
   def inner(i : Int, acc : Int) : Int = if (i > b) acc else inner(i + 1, acc + f(i))
   inner(a, 0)
 }

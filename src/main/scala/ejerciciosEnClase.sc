@@ -115,7 +115,15 @@ def square(x: Int): Int = x * x
 val result = prodF(2, 4, square)  // Esto calculará 2*2*3*3*4*4 = 576
 println(result)
 
+//Solución
+def prodF(a:Int, b:Int, f:Int=> Int) = {
+  @tailrec
+  def inner(i : Int, acc : Int) : Int = if(i>b) acc else inner(i+1, acc*f(i))
+  inner(a, 1)
+}
+
 //2) Utilizar prodF para redefinir fact
+// def fact(n:Int) = ???
 
 def prodF(start: Int, end: Int, f: Int => Int): Int = if (start > end) 1 else f(start) * prodF(start + 1, end, f)
 
@@ -127,8 +135,29 @@ def fact(n: Int): Int = {
 val result = fact(5)  // Esto calculará 5! = 5*4*3*2*1 = 120
 println(result)
 
+//Solución
+
+def fact(n : Int) = prodF(1,n,_)
 
 //3) Hacer una gran función que factorice sumF y prodF
+
+def prodF(a: Int, b: Int, f: Int => Int): Int = {
+  @tailrec
+  def inner(i: Int, acc: Int): Int = if (i > b) acc else inner(i + 1, acc * f(i))
+  inner(a, 1)
+}
+
+def fact(n: Int): Int = prodF(1, n, identity)
+
+//Solución
+
+def megaF(a : Int, b : Int, f : Int => Int, neutro : Int, op : (Int, Int) => Int) = {
+  @tailrec
+  def inner(i : Int, acc : Int) : Int = if(i > b) acc else inner(i+1, op(acc, f(i)))
+  inner(a, neutro)
+}
+
+megaF(5, 7, _/2, 1, _*_) // Es igual que prodF(5,7,_/2)
 
 //4) Hacer una función collatz que da el largo de la secuencia de collatz desde cierto número
 //collatz(1) = 1

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Tarea 3 - 16/8/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/FirstOrderFunction.sc" afterDir="false" />
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 17/8/2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/FirstOrderFunction.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/FirstOrderFunction.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/ejerciciosEnClase.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ejerciciosEnClase.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/primerWorksheet.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerWorksheet.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692212878873</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Clase 17/8/2023">
+      <created>1692308642836</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692308642836</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +221,7 @@
     <MESSAGE value="Primer parcial" />
     <MESSAGE value="clase 14/8/2023" />
     <MESSAGE value="Tarea 3 - 16/8/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea 3 - 16/8/2023" />
+    <MESSAGE value="Clase 17/8/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 17/8/2023" />
   </component>
 </project>
