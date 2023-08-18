@@ -17,3 +17,31 @@ sumF(5, 50, x => x*x)
 
 def sumSquares = sumF(_,_,x=>x*x)
 sumSquares(30,60)
+
+//Creador de saludos
+def creadorDeSaludos(l : String) : String => String = (name: String) =>
+  if(l == "FR")
+    "Bonjuor" + name
+  else if(l == "DE")
+    "Hello" + name
+  else if(l == "IT")
+    "Ciao" + name
+  else
+    "Hola" + name
+
+def saludoEnFrances = creadorDeSaludos("FR")
+saludoEnFrances("Cuasimodo")
+saludoEnFrances("Zinedine Zidane")
+saludoEnFrances("Descartes")
+
+def megaF2(f : Int => Int, neutro : Int, op : (Int, Int) => Int) = (a : Int, b: Int) => {
+  @tailrec
+  def inner(i : Int, acc: Int) : Int = if(i > b) acc else inner(i + 1, op(acc, f(i)))
+
+  inner(a, neutro)
+}
+
+//def sumInts2 : (Int, Int) => Int = megaF2(x => x,0, _+_)
+
+def sumInts2 = megaF2(x => x, 0, _+_)
+sumInts2(3,5)

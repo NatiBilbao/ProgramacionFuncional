@@ -107,6 +107,8 @@ def inc3 = (_:Int)+1
 
 //Sumamos los cuadrados
 
+def addy(x:Int, y:Int) = x+y
+
 
 
 
