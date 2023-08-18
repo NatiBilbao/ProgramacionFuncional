@@ -53,7 +53,7 @@ megaF2(x=>x, 0, _+_)(3,5)
 //Asociatividad izquierda en los llamados a las funciones
 
 //f : Int => (Int, Int) => Int //Función de f, toma un parámetro y devuelve una función y este devuelve dos parámetros
-//f : Int => Int => Int => Int //Función de f, toma un parámetro y devuelve una función y este devuelve un parámetro
+//f : Int => Int => Int => Int //Función de f, toma un parámetro y devuelve una función y este devuelve un parámetro Int
 
 //g(3)(4,5) //Toma un parámetro y devuelve una funcion que toma dos parámetros que es un Int
 //g : Int => (Int, Int) => Int
