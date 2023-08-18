@@ -45,3 +45,15 @@ def megaF2(f : Int => Int, neutro : Int, op : (Int, Int) => Int) = (a : Int, b: 
 
 def sumInts2 = megaF2(x => x, 0, _+_)
 sumInts2(3,5)
+
+def prodInts = megaF2(x => x, 1, _ * _)
+prodInts(3,7)
+
+megaF2(x=>x, 0, _+_)(3,5)
+//Asociatividad izquierda en los llamados a las funciones
+
+//f : Int => (Int, Int) => Int //Función de f, toma un parámetro y devuelve una función y este devuelve dos parámetros
+//f : Int => Int => Int => Int //Función de f, toma un parámetro y devuelve una función y este devuelve un parámetro
+
+//g(3)(4,5) //Toma un parámetro y devuelve una funcion que toma dos parámetros que es un Int
+//g : Int => (Int, Int) => Int
