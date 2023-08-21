@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="primer parcial">
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="clase 21/8/2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/apuntesPrimerParcial" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/apuntesPrimerParcial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/FirstOrderFunction.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/firstOrderFunction.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/HelloWorld$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/ejerciciosEnClase.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/ejerciciosEnClase.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/functionsFramework.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/functionsFramework.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Worksheet" />
         <option value="Class" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
   </component>
@@ -254,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692653699393</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="clase 21/8/2023">
+      <created>1692654465167</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1692654465167</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +296,7 @@
     <MESSAGE value="Clase 18/8/2023" />
     <MESSAGE value="Clase 21/8/2023" />
     <MESSAGE value="primer parcial" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer parcial" />
+    <MESSAGE value="clase 21/8/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase 21/8/2023" />
   </component>
 </project>

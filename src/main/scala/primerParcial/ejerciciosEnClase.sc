@@ -185,13 +185,33 @@ def collatz(n : Int) : Int = {
 def longestCollatz(a: Int, b: Int) = megaF(a, b, collatz, 0, _ max _)
 
 //Ejercicio 4 - functionsFramework
+//Composición de funciones
 
 def f(x : Int) = 2*x
 def g(x : Int) = x*x
 
 //a) Hacer la composición de dos funciones
-//def comp()
-//comp(f,g)(3) //18
+//Solución paso a paso
+
+//def comp(f: Int => Int, g : Int => Int) : Int => Int = {
+  //def inner(x : Int) : Int = {
+    //val temp = g(x)
+    //f(temp)
+  //}
+  //inner
+//}
+
+//Solución corta
+
+def comp(f: Int => Int, g : Int => Int)(x : Int) : Int = f(g(x))
+comp(f,g)(3) //=18
+
+//b)
+//join(+)(f,g)(3)
+
+
+
+
 
 
 
