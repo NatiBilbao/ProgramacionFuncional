@@ -207,7 +207,6 @@ def comp(f: Int => Int, g : Int => Int)(x : Int) : Int = f(g(x))
 comp(f,g)(3) //=18
 
 //b)
-//join(+)(f,g)(3)
 
 //Solución
 def join(op : (Int, Int) => Int)(f : Int => Int, g : Int => Int)(x : Int) = op(f(x), g(x))
