@@ -30,4 +30,8 @@
 //j : (Int,Int) => (Int,Int) => Int // Se manda los parámetros de dos en dos
 //Existen 2 funciones la 1ra es j
 
+//Ejemplos de currificación
+//m(a:Int, b:Int, c:Int) = a + b + c
+//o(a:Int)(b:Int)(c:Int) = a + b + c
+
 
