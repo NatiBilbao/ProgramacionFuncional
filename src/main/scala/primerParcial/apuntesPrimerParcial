@@ -34,4 +34,7 @@
 //m(a:Int, b:Int, c:Int) = a + b + c
 //o(a:Int)(b:Int)(c:Int) = a + b + c
 
+//Temas para el parcial (implementación, recursividad, funciones de 1er orden, currificacion) saber escribir código en scala
+//Suponer que el inferenciador de tipos funciona
+
 

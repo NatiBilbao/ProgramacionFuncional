@@ -212,6 +212,11 @@ comp(f,g)(3) //=18
 def join(op : (Int, Int) => Int)(f : Int => Int, g : Int => Int)(x : Int) = op(f(x), g(x))
 join(_+_)(f,g)(3)
 
+//c) hacer una funcion forall que tome un predicado min y max y una funcion que verifique que x
+//forall(p, min, max)(f)
+
+//forall(>0, 5, 10)(x => x-4) //=True
+//forall(%2==0,5, 10)(x => x-4) //=False
 
 
 
