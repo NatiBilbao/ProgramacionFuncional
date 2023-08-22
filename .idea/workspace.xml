@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="clase 21/8/2023">
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="tarea forall y exists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/functionsFramework.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/functionsFramework.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/tareas.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/tareas.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -297,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692657672059</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="tarea forall y exists">
+      <created>1692683514861</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1692683514861</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +336,7 @@
     <MESSAGE value="Clase 21/8/2023" />
     <MESSAGE value="primer parcial" />
     <MESSAGE value="clase 21/8/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="clase 21/8/2023" />
+    <MESSAGE value="tarea forall y exists" />
+    <option name="LAST_COMMIT_MESSAGE" value="tarea forall y exists" />
   </component>
 </project>

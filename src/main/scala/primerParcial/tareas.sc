@@ -79,3 +79,18 @@ val square = (x: Int) => x * x // Función f: elevar al cuadrado
 val isGreaterThanFifty = (x: Int) => x > 50 // Predicado: valor es mayor que 50
 
 exists(isGreaterThanFifty, minValue, maxValue)(square)
+
+//Solución
+
+//Forall
+def forall(p: Int => Boolean, min: Int, max: Int)(f: Int => Int): Boolean = {
+  @tailrec
+  //def inner(i : Int) : Boolean = if(i > max) true else if (p(f(i))) inner(i + 1) else false //Forma larga
+  //def inner(i : Int) : Boolean = (i > max) || (if(p(i))) inner(i + 1) else false //Forma semi corta
+  def inner(i : Int) : Boolean = (i > max) || p(f(i)) && inner(i + 1) //Forma corta
+  inner(min)
+}
+//Exists
+
+def exists(p: Int => Boolean, min: Int, max: Int)(f: Int => Int) : Boolean = !forall(!p(_), min, max)(f)
+
