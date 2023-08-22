@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 22/8/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/orientadoAObjetos.sc" afterDir="false" />
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Segundo parcial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/segundoParcial/orientadoAObjetos.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/orientadoAObjetos.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692741966747</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Segundo parcial">
+      <created>1692743060160</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1692743060160</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,6 +360,7 @@
     <MESSAGE value="tarea forall y exists" />
     <MESSAGE value="Correción tarea" />
     <MESSAGE value="Clase 22/8/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 22/8/2023" />
+    <MESSAGE value="Segundo parcial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo parcial" />
   </component>
 </project>
