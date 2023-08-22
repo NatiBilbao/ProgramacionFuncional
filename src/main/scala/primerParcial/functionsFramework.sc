@@ -9,3 +9,18 @@ def fporg : Int => Int = join(_*_)(f,g)
 
 fmasg(3)
 fporg(3)
+
+def andres(x : Int) : Boolean =
+  //if(x > 0) (x % 2 == 0) else (x % 3 == 0)
+  x > 0 && x % 2 == 0 || x <= 0 && x % 3 == 0
+
+//if(x > 0) x % 2 == 0 else true
+//x <= 0 || x % 2 == 0
+
+//Currificacion de html
+
+def wrapper(tag : String)(content : String) = "<" + tag + ">" + content + "/>" + tag + ">"
+wrapper("html")(wrapper("head")(wrapper("title")("thi is")))
+
+def paragraph : String => String = wrapper("p")
+paragraph("I love...")
