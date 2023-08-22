@@ -9,5 +9,3 @@ def fporg : Int => Int = join(_*_)(f,g)
 
 fmasg(3)
 fporg(3)
-
-//Logica de 1er orden

@@ -1,7 +1,5 @@
 import scala.annotation.tailrec
 
-//Primer parcial
-
 // Realizar un código para los números de fibonacci uno con tailrec y otro con tailrecmain
 // def fiboTR(n:Int, acc1: Int, acc2:Int):Int = ???
 // def fiboTRmain(n:Int ) : Int = ???
@@ -55,3 +53,29 @@ def sumInt(a: Int, b: Int): Int = {
 
 val result = sumInt(3, 5)
 println(result)
+
+//forall: todos los resultados de f para todos los valores entre min y max cumple el predicado p
+
+def forall(p: Int => Boolean, min: Int, max: Int)(f: Int => Int): Boolean = (min to max).forall(value => p(f(value)))
+
+val minValue = 1
+val maxValue = 10
+
+val square = (x: Int) => x*x //Función f: elevar al cuadrado
+
+val isGreaterThanTen = (x: Int) => x > 10 //Predicado: valor es mayor que 10
+
+forall(isGreaterThanTen, minValue, maxValue)(square)
+
+//exists: al menos un resultado de f entre los valores entre min y max cumple el predicador p
+
+def exists(p: Int => Boolean, min: Int, max: Int)(f: Int => Int): Boolean = (min to max).exists(p compose f)
+
+val minValue = 1
+val maxValue = 20
+
+val square = (x: Int) => x * x // Función f: elevar al cuadrado
+
+val isGreaterThanFifty = (x: Int) => x > 50 // Predicado: valor es mayor que 50
+
+exists(isGreaterThanFifty, minValue, maxValue)(square)

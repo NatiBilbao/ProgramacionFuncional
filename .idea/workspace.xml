@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="clase 21/8/2023">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/ejerciciosEnClase.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/ejerciciosEnClase.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/functionsFramework.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/functionsFramework.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/primerParcial/tareas.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/primerParcial/tareas.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692657387719</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="clase 21/8/2023">
+      <created>1692657672059</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1692657672059</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
