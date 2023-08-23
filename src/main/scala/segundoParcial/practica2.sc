@@ -1,19 +1,15 @@
 //Ejercicio 1 - Representation
 
-// Definición del tipo de datos Conjunto
 type Conjunto = Int => Boolean
 
-// Función característica para el conjunto de enteros negativos
 def enterosNegativos: Conjunto = (x: Int) => x < 0
 
-// Función para comprobar si un conjunto contiene un elemento
 def contiene(s: Conjunto, elem: Int): Boolean = s(elem)
 
-// Ejemplos de uso
 val conjuntoNegativos = enterosNegativos
 
-println(contiene(conjuntoNegativos, -3))  // Debería imprimir: true
-println(contiene(conjuntoNegativos, 2))   // Debería imprimir: false
+println(contiene(conjuntoNegativos, -3))
+println(contiene(conjuntoNegativos, 2))
 
 //Ejercicio 2 - Basic Functions on Sets
 type Conjunto = Int => Boolean
