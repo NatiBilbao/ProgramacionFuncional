@@ -46,4 +46,34 @@ println(forall(setExample, x => x > 5))
 println(exists(setExample, x => x > 5))
 println(map(setExample, x => x * 2)(8))
 
+//Solución
 
+//Ejercicio 1
+type Set = Int => Boolean
+val a : Set = _ % 2 == 0
+a(1)
+def contains(s : Set, elem : Int) : Boolean = s(elem)
+
+def singletonSet(elem : Int) = Set = _ == elem
+
+val b = singletonSet(5)
+b(4)
+b(5)
+b(6)
+
+//Ejercicio 2
+def union(s : Set, t : Set) : Set = (e : Int) => s(e) || t(e)
+
+def intersect(s : Set, t : Set) : Set = (e : Int) => s(e) && t(e)
+
+def diff(s : Set, t : Set) : Set = intersect(s, !t(_))
+
+def filter(s : Set, p : Int => Boolean): Set = intersect(s, p)
+
+//Ejercicio 3
+
+def forall(s : Set, p : Int => Boolean) : Boolean = {
+  def inner(i : Int): Boolean = if(i > 1000) true else
+    if(s(i)) if(p(i)) inner(i + 1) else false else inner(i + 1)
+    inner(-100)
+}
