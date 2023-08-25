@@ -63,6 +63,7 @@ a.+(b).+(new Fraction(1))
 
 //Prioridades al empezar una función
 
+//otros
 // * / %
 //+ -
 //:
