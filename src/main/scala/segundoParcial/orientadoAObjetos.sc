@@ -1,7 +1,18 @@
+import scala.annotation.tailrec
+
 class Fraction(x : Int, y : Int){
   require(y > 0, "Denominator must be positive") //función pre definida
-  def num = x
-  def denom = y
+  def this(x : Int) = this(x,1)
+
+
+  @tailrec
+  private def gcd(a : Int, b : Int): Int = if(b == a) a else gcd(b, a%b)
+
+  //def num = x
+  //def denom = y
+
+  val num = x / gcd(x,y)
+  val denom = y / gcd(x,y)
 
   override def toString = num + "/" + denom
 
@@ -22,11 +33,14 @@ class Fraction(x : Int, y : Int){
 
   def >(o : Fraction) = num*o.denom > denom*o.num
 
-  def eq(o : Fraction) = num == o.num && denom == o.denom
+  def ==(o : Fraction) = num == o.num && denom == o.denom
+
 
 }
 
 //new Fraction(2,3) //Esto es un objeto
+
+implicit def intoFraction(x : Int) = new Fraction(x)//"implicit "modifica una función
 
 val a = new Fraction(2,3)
 val b = new Fraction(5,3)
@@ -38,3 +52,23 @@ a.+(b).+(new Fraction(1,1))
 1.+(2)
 
 -a
+a == b
+
+a + b + new Fraction(3)
+a.+(b).+(new Fraction(1))
+
+"2" + 2
+
+2 + 2.5
+
+//Prioridades al empezar una función
+
+// * / %
+//+ -
+//:
+//= !
+//< >
+//&
+//^
+//|
+//letras

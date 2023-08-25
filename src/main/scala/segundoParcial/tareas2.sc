@@ -25,3 +25,23 @@ val dividend = 10.0
 val divisor = 2.0
 val result = div(dividend, divisor)
 println(s"El resultado de la división es: $result")
+
+//def <(o : Fraction) = ???
+//def >=(o : Fraction) = ???
+//def <=(o : Fraction) = ???
+
+class Fraction(x : Int, y : Int){
+  require(y > 0, "Denominator must be positive") //función pre definida
+  def num = x
+  def denom = y
+
+  override def toString = num + "/" + denom
+
+  def <(o : Fraction) = ???
+
+  def >=(o : Fraction) = ???
+
+  def <=(o : Fraction) = ???
+
+}
+
