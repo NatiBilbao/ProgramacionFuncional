@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 25/8/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/ejerciciosEnClase2.sc" afterDir="false" />
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 28/8/2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/segundoParcial/orientadoAObjetos.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/orientadoAObjetos.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/segundoParcial/tareas2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/tareas2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/segundoParcial/ejerciciosEnClase2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/ejerciciosEnClase2.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693003600373</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Clase 28/8/2023">
+      <created>1693258361497</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1693258361497</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Clase 2/8/23" />
     <MESSAGE value="Clase 3/8/23" />
     <MESSAGE value="Clase 4/8/23" />
     <MESSAGE value="Clase 8/8/23" />
@@ -429,6 +433,7 @@
     <MESSAGE value="Tarea y práctica 2" />
     <MESSAGE value="solución práctica 2" />
     <MESSAGE value="Clase 25/8/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 25/8/2023" />
+    <MESSAGE value="Clase 28/8/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 28/8/2023" />
   </component>
 </project>
