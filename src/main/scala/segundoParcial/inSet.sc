@@ -4,9 +4,11 @@ abstract class InSet {
 }
 
 class Empty extends InSet {
+  override def contains(x: Int): Boolean = false
 
+  override def add(x: Int): InSet = new NonEmpty(x)
 }
-
-class NonEmpty extends InSet {
+//Tarea completar nonEmpty y arreglar el error de x
+class NonEmpty(e : Int, left : InSet, right : InSet) extends InSet {
 
 }
