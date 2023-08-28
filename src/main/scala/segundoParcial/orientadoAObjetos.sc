@@ -14,7 +14,7 @@ class Fraction(x : Int, y : Int){
   val num = x / gcd(x,y)
   val denom = y / gcd(x,y)
 
-  override def toString = num + "/" + denom
+  override def toString = num + (if(denom == 1)) "" else "/" + denom
 
   //métodos
   //def add(o : Fraction) = new Fraction(num*o.denom + o.num*denom, denom*o.denom)
@@ -34,8 +34,6 @@ class Fraction(x : Int, y : Int){
   def >(o : Fraction) = num*o.denom > denom*o.num
 
   def ==(o : Fraction) = num == o.num && denom == o.denom
-
-
 }
 
 //new Fraction(2,3) //Esto es un objeto
@@ -73,3 +71,5 @@ a.+(b).+(new Fraction(1))
 //^
 //|
 //letras
+
+//Infix = argumento operador argumento

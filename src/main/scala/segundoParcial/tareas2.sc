@@ -37,11 +37,12 @@ class Fraction(x : Int, y : Int){
 
   override def toString = num + "/" + denom
 
-  def <(o : Fraction) = ???
+  //Solucion
 
-  def >=(o : Fraction) = ???
+  def <(o : Fraction) = o > this
 
-  def <=(o : Fraction) = ???
+  def >=(o : Fraction) = !(this < o)
 
+  def <=(o : Fraction) = o >= this
 }
 
