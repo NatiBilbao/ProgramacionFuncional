@@ -11,4 +11,17 @@
 //Solución
 //((a :>< b) >:< c) <>: d
 
+//Ejercicio 2
+
+//Hacer el modelo de sustitución de:
+class c(x : Int){
+  val a = x + 1
+  def m(x : Int) = x + this.a
+}
+
+val b = new c(2)
+val d = 3
+b.m(d)
+
+//Sin solucion
 
