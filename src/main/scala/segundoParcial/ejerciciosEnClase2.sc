@@ -28,5 +28,5 @@ b.m(d)
 //Ejercicio 3
 //Realizar singleton
 
-def singleton[T](x : T) : List[T]
+def singleton[T](x : T) : List[T] =
 

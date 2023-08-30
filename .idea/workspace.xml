@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 28/8/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/genericos.sc" afterDir="false" />
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 30/8/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/apuntesSegundoParcial" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/segundoParcial/inSet.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/inSet.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/segundoParcial/ejerciciosEnClase2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/ejerciciosEnClase2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/segundoParcial/genericos.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/segundoParcial/genericos.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691014153260</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Clase 3/8/23">
-      <created>1691101972795</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691101972795</updated>
     </task>
     <task id="LOCAL-00003" summary="Clase 3/8/23">
       <created>1691102377766</created>
@@ -409,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693262721257</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Clase 30/8/2023">
+      <created>1693431237699</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1693431237699</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +425,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Clase 3/8/23" />
     <MESSAGE value="Clase 4/8/23" />
     <MESSAGE value="Clase 8/8/23" />
     <MESSAGE value="Clase 10/8/23" />
@@ -449,6 +449,7 @@
     <MESSAGE value="solución práctica 2" />
     <MESSAGE value="Clase 25/8/2023" />
     <MESSAGE value="Clase 28/8/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 28/8/2023" />
+    <MESSAGE value="Clase 30/8/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 30/8/2023" />
   </component>
 </project>
