@@ -38,3 +38,5 @@ c[1].parecerRata();
 
 En java los arreglos son coraviantes
 Los arreglos en scara son no-variantes
+
+La varianza en scala por defecto es la no-varianza
