@@ -3,21 +3,38 @@ class Perro {
 }
 
 class Chihuahua extends Perro {
-  //undefine ladrar : prohibido por el principio de sustitucion de lisvko
-  //si B es un subtipo de A(B <: A), todo lo que se puede hacer con A, tambien se puede hacer con B
+  undefine ladrar : prohibido por el principio de sustitucion de lisvko
+  si B es un subtipo de A(B <: A), todo lo que se puede hacer con A, tambien se puede hacer con B
 }
 
-//Chihuahua <: Perro
+Chihuahua <: Perro
 
 val p : Perro = new Chihuahua
 
-//List[Chihuahua] es una lista de perros (List[Chihuahua] <: List[Perro])? R. Si
+List[Chihuahua] es una lista de perros (List[Chihuahua] <: List[Perro])? R. Si
 val l : List[Perro] = new Cons[Chihuahua](new Chihuahua(), new Nil)
 
 
-//Estudio de la varianza
-//Tenemos G[T]
-//B <: A
-//G[B] <: G[A] = G es covariante
-//G[A] <: G[B] = G es contravariante
-//G[B] <: G[A] = G es no-Variante
+Estudio de la varianza
+Tenemos G[T]
+B <: A
+G[B] <: G[A] = G es covariante
+G[A] <: G[B] = G es contravariante
+G[B] != G[A] = G es no-Variante
+
+Arrglos
+String[]
+Perro[]
+Chihuahua[]
+
+Los arreglos en java son covariantes
+
+Todo esto compila en java pero en la ejecución crashea
+Chihuahua[] c = new Chihuahua[3]
+c[0] = new Chichuahua();
+Perro[] p = c;
+p[1] = new Doberman(); //Aqui crashea
+c[1].parecerRata();
+
+En java los arreglos son coraviantes
+Los arreglos en scara son no-variantes
