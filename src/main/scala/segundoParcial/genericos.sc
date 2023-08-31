@@ -7,11 +7,15 @@ abstract class List[+T]{
   def isEmpty : Boolean
   def head : T
   def tail : List[T]
+  def get(x : Int) : T
+  def prepend[S >: T](x: S) : List[S]
 }
 
 //Clase generica
 class Cons[+T](val head : T, val tail : List[T]) extends List[T]{
   override def isEmpty: Boolean = false
+  override def get(x : Int) : T = if(x == 0) head else tail get x - 1
+  override def prepend[S >: T](x: S): List[S] = new Cons(this)
 }
 
 //Lista vacia = Nil
@@ -19,6 +23,7 @@ object Nil extends List[Nothing]{
   override def isEmpty: Boolean = true
   override def head = throw new NoSuchElementException("Nil.head")
   override def tail = throw new NoSuchElementException("Nil.tail")
+  override def get(x: Int): Nothing = throw new NoSuchElementException("Nil.get")
 }
 
 def singleton[T](x : T) : List[T] = new Cons(x, Nil)
@@ -41,3 +46,7 @@ val l : List[Perro] = new Cons[Chihuahua](new Chihuahua(), new Nil)
 //l.isEmpty
 //l.head.ladrar
 //l.tail.head.ladrar
+
+abstract class Function1[P, R]{
+
+}

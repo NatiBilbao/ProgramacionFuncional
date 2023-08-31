@@ -40,3 +40,17 @@ En java los arreglos son coraviantes
 Los arreglos en scara son no-variantes
 
 La varianza en scala por defecto es la no-varianza
+
+Covariante: List[Chihuahua] <: List[Perro]
+Contravariante: List[Chihuahua] >: LIst[Perro]
+
+def m(x:Int) : T : Compatible con la covarianza, incompatible con la contravarianza
+def m1(x:T) : Int : Incompatible con la covarianza, compatible con la contravarianza
+def m2(x : Int) : Int : Compatible con la covarianza, compatible con la contravarianza
+def m3(x: Int): T : Incompatible con la covarianza y con la contravarianza
+
+El tipo de retorno es una posicion covariante
+El tipo de los parámetros es una posición contravariante
+
+def get(x : Int) : T es covariante
+def prepend(x: T) : List[T] no es covariante
