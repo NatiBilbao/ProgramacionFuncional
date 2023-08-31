@@ -47,6 +47,28 @@ val l : List[Perro] = new Cons[Chihuahua](new Chihuahua(), new Nil)
 //l.head.ladrar
 //l.tail.head.ladrar
 
-abstract class Function1[P, R]{
-
+abstract class Function1[-P, +R]{
+  def apply(p : P) : R
 }
+
+class Medico
+
+class Cirujano extends Medico
+
+def f(p : Cirujano) : Perro = ???
+
+def primerOrden(func : Medico => Perro) = ???
+
+//Cirujano => Perro <: Medico => Perro? No!
+
+def g(p : Medico) : Chihuahua = ???
+
+def primerOrden2(func : Medico => Perro) = ???
+
+//Medico => Chihuahua <: Medico => Perro? Si
+
+def h(n: Medico) : Perro = ???
+
+def primerOrden3(func : Cirujano => Chihuahua) = ???
+
+//Medico => Perro <: Cirujano => Chihuahua? No
