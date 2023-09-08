@@ -9,3 +9,4 @@ val l2 = Nil //Lista vacia
 val l3 = 0 :: Nil // igual a List(0)
 
 val l4 = 0 :: 1 :: 2 :: Nil
+
