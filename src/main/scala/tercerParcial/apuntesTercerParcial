@@ -6,4 +6,18 @@ val l4 = 0 :: 1 :: 2 :: Nil //separa la cabeza de la cola y siempre va NIl al fi
 
 val l3 = 0.::(Nil) //Se puede escribir asi pero no funciona da error
 
-:: --> este operador se llama cons
+:: --> este operador se llama cons, une una cabeza con una cola
+
+Toda funcion que empieza por dos puntos tiene asociatividad derecha
+
+Nil representa a la lista vacia
+
+l4 match {
+  case Nil => -5
+  case List(a,b) => a+b //Unifica listas con dos elementos
+  case h :: t => h //Hace match con una lista que tenga una cabeza y una cola osea hace match con cualquier lista menos con Nil
+  case x :: y :: List(a,b) :: z => 0 //Tamaño de lista 3 o +
+  case _ => 42
+}
+
+case x :: (y :: ((List(a,b) :: z))) => 0
