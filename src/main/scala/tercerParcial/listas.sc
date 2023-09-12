@@ -76,8 +76,9 @@ def myFilter[T](l : List[T], p : T => Boolean) : List[T] = {
 
 def l9 = l5 filterNot((_ : Int) % 2 == 0)
 
-def myFilterNot[T](l : List[T], p : T => Boolean) = myFilter(l, !p(_))
+def myFilterNot[T](l : List[T], p : T => Boolean) = myFilter(l, !p(_ : T))
 
 val(l10, l11) = l5 partition((_:Int) % 2 == 0)
+
 
 

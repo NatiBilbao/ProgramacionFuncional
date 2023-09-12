@@ -50,3 +50,7 @@ def l8 = l5 filterNot((_ : Int) % 2 == 0)
 
 def myFilterNot[T](l : List[T], p : T => Boolean) = myFilter(l, !p(_))
 
+//Ejercicio 6
+
+def unicos[T](l : List[T]) : List[T] =
+

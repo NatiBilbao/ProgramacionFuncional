@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 12/9/2023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/tercerParcial/ejerciciosEnClase3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tercerParcial/ejerciciosEnClase3.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/tercerParcial/listas.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tercerParcial/listas.sc" afterDir="false" />
     </list>
@@ -65,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691014153260</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Correción práctica 1">
-      <created>1692050953274</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1692050953274</updated>
     </task>
     <task id="LOCAL-00015" summary="Primer parcial">
       <created>1692051387817</created>
@@ -409,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694556178362</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Clase 12/9/2023">
+      <created>1694557222167</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1694557222167</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
