@@ -33,3 +33,22 @@ l4 match {
   case x :: y :: List(a,b) :: z => 0
   case _ => 42
 }
+
+//Merge sort
+
+def mergeSort(l : List[Int]) : List[Int] = {
+  def merge(l1 : List[Int], l2 : List[Int], acc : List[Int]) : List[Int] = (l1, l2) match {
+    case (Nil, _) => acc.reverse ::: l2
+    case (_, Nil) => acc.reverse ::: l1
+    case (h1 :: t1, h2 :: t2) =>
+      if(h1 <= h2) merge(t1, l2, h1 :: acc) else merge(l1, t2, h2 :: acc)
+  }
+
+  if(l.length< 2) l else {
+    val (left, right) = l splitAt l.length / 2
+    merge(mergeSort(left), mergeSort(right), Nil)
+  }
+}
+
+val l7 = l5 map((_ : Int) * 2)
+

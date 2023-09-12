@@ -15,8 +15,21 @@ def insertionSort(l : List[Int]) : List[Int] = {
 
 insertionSort(List(3,1,4,2))
 
-//Ejercicio
+//Ejercicio 2
+
  def addEnd[T](e : List[T]) : List[T] = l match {
    case Nil => List(e)
    case h :: t => h :: addEnd(e, t)
  }
+
+//Ejercicio 3
+ def myMap[T, U](l : List[T], f : T => U) = {
+   def inner(l1 : List[T], acc : List[U]) : List[U] = l1 match {
+     case Nil => acc.reverse
+     case h :: t => inner(t, f(h) :: acc)
+   }
+
+   inner(l, Nil)
+ }
+
+myMap(l5, (_:Int) % 2 == 0)
