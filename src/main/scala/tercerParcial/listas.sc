@@ -52,3 +52,17 @@ def mergeSort(l : List[Int]) : List[Int] = {
 
 val l7 = l5 map((_ : Int) * 2)
 
+def myMap[T, U](l : List[T], f : T => U) = {
+  def inner(l1 : List[T], acc : List[U]) : List[U] = l1 match {
+    case Nil => acc.reverse
+    case h :: t => inner(t, f(h) :: acc)
+  }
+
+  inner(l, Nil)
+}
+
+myMap(l5, (_:Int) % 2 == 0)
+
+def l5 = l5 filter ((_:Int) % 2 == 0)
+
+

@@ -23,6 +23,7 @@ insertionSort(List(3,1,4,2))
  }
 
 //Ejercicio 3
+
  def myMap[T, U](l : List[T], f : T => U) = {
    def inner(l1 : List[T], acc : List[U]) : List[U] = l1 match {
      case Nil => acc.reverse
@@ -32,4 +33,7 @@ insertionSort(List(3,1,4,2))
    inner(l, Nil)
  }
 
-myMap(l5, (_:Int) % 2 == 0)
+//Ejercicio 4
+
+def myFilter(l, p) : = ???
+

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 8/9/2023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cfcc5dcc-2ef8-4b18-857f-e90434bc6803" name="Changes" comment="Clase 12/9/2023">
       <change beforePath="$PROJECT_DIR$/src/main/scala/tercerParcial/ejerciciosEnClase3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tercerParcial/ejerciciosEnClase3.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/tercerParcial/listas.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tercerParcial/listas.sc" afterDir="false" />
     </list>
@@ -65,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691014153260</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Parctica 1 - 11/8/2023">
-      <created>1691793774251</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1691793774251</updated>
     </task>
     <task id="LOCAL-00013" summary="Práctica termina">
       <created>1691987693173</created>
@@ -409,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694213071661</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Clase 12/9/2023">
+      <created>1694555800404</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1694555800409</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tarea 1 - 11/8/23" />
     <MESSAGE value="Clase 11/8/2023" />
     <MESSAGE value="Parctica 1 - 11/8/2023" />
     <MESSAGE value="Práctica termina" />
@@ -449,6 +447,7 @@
     <MESSAGE value="Clase 31/8/2023" />
     <MESSAGE value="Tercer parcial" />
     <MESSAGE value="Clase 8/9/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 8/9/2023" />
+    <MESSAGE value="Clase 12/9/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 12/9/2023" />
   </component>
 </project>
