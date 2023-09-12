@@ -52,5 +52,37 @@ def myFilterNot[T](l : List[T], p : T => Boolean) = myFilter(l, !p(_))
 
 //Ejercicio 6
 
-def unicos[T](l : List[T]) : List[T] =
+//No tailrecursive
+def unicos[T](l : List[T]) : List[T] = l match {
+  case Nil => Nil
+  case h :: t => h :: unicos(t filter(_ != h))
+}
+
+unicos(List[1,1,2,3,4,4,1,2,3,4,2,1]) //List(1,2,3,4)
+
+//Tailrecursive
+def unicos[T](l : List[T]) : List[T] = {
+  def inner(l1 : List[T], acc : List[T]) : List[T] = l1 match {
+    case Nil => Nil
+    case h :: t => inner(t filter(_ != h), h :: acc)
+  }
+
+  inner(l, Nil)
+}
+
+unicos(List[1,1,2,3,4,4,1,2,3,4,2,1]) //List(1,2,3,4)
+
+def conteo[T](l : List[T]) : List[(T,Int)] = {
+  def inner(l1 : List[T], acc : List[(T,Int)]) : List[(T,Int)] = l1 match {
+    case Nil => acc.reverse
+    case h :: t => {
+      val(a,b) = l partition(_ == h)
+      inner(b,(h,a.length) :: acc)
+    }
+  }
+
+  inner(l, Nil)
+}
+
+conteo(List(1,1,2,3,4,4,1,2,3,4,2,1)) //List((1,4), (2,3), (3,2), (4,3))
 
