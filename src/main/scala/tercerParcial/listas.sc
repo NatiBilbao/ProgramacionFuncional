@@ -65,4 +65,19 @@ myMap(l5, (_:Int) % 2 == 0)
 
 def l5 = l5 filter ((_:Int) % 2 == 0)
 
+def myFilter[T](l : List[T], p : T => Boolean) : List[T] = {
+  def inner(l1 : List[T], acc : List[T]) : List[T] = l1 match {
+    case Nil => acc.reverse
+    case h :: t => inner(t, if(p(h)) h :: acc else acc)
+  }
+
+  inner(l, Nil)
+}
+
+def l9 = l5 filterNot((_ : Int) % 2 == 0)
+
+def myFilterNot[T](l : List[T], p : T => Boolean) = myFilter(l, !p(_))
+
+val(l10, l11) = l5 partition((_:Int) % 2 == 0)
+
 

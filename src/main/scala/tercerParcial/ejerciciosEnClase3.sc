@@ -35,5 +35,18 @@ insertionSort(List(3,1,4,2))
 
 //Ejercicio 4
 
-def myFilter(l, p) : = ???
+def myFilter[T](l : List[T], p : T => Boolean) : List[T] = {
+  def inner(l1 : List[T], acc : List[T]) : List[T] = l1 match {
+    case Nil => acc.reverse
+    case h :: t => inner(t, if(p(h)) h :: acc else acc)
+  }
+
+  inner(l, Nil)
+}
+
+def l8 = l5 filterNot((_ : Int) % 2 == 0)
+
+//Ejercicio 5
+
+def myFilterNot[T](l : List[T], p : T => Boolean) = myFilter(l, !p(_))
 
